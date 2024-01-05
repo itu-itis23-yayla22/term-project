@@ -1,0 +1,94 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:coral;
+  }
+  
+  .container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    height: 100%;
+  }
+
+  .wrapper {
+    display: flex;
+  }
+  
+  .image-me {
+    width: 25%;
+  }
+  
+  .r-about {
+    width: 75%;
+  }
+
+  header, footer {
+    background-color: coral;
+    text-align: center;
+    padding: 1rem 0;
+    color: lavender;
+  }
+  
+  #about-me, #academic-interests {
+    margin: 20px 0;
+    padding: 20px;
+    background: lavender;
+    border-radius: 8px;
+    color: coral;
+    font-family: 'Poppins', Times, serif;
+  }
+  
+  img {
+    max-width: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+
+  .container,header{
+    background-color: coral;
+  }
+
+  h2{
+    color: coral;
+    
+  }
+
+  header,h1{
+    text-align: center;
+    font-family: 'Poppins', Times, serif;
+  }
+
+  .about-me,h2{
+    font-family: 'Poppins', Times, serif;
+    margin-left: 42px;
+  }
+
+  .about-me,p{
+    font-family: 'Poppins', Times, serif;
+    margin-top: 0px;
+    color: coral;
+  }
+
+  footer p{
+    color: lavender;
+  }
+
+  footer a{
+    color: lavender;
+    text-decoration: none;
+  }
+
+  a:hover{
+    color: black;
+  }
+  i{
+    color: lavender;
+
+  }
+
+  h3{
+    font-weight: 500;
+  }
+ 

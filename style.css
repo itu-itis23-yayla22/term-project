@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#game {
+  margin-top: 50px;
+}
+
+#cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Kartların alt satıra geçmesini sağlar */
+  gap: 10px; /* Kartlar arasındaki boşluk */
+}
+
+.card {
+  width: 80px; /* Kart genişliği */
+  height: 112px; /* Kart yüksekliği */
+  border: 1px solid #ccc;
+ 
+  font-size: 18px;
+  cursor: pointer;
+  padding: 5px; /* Kartlar arasında küçük bir boşluk bırakmak için */
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: 1px black solid;
+  background-color: white;
+  border-radius: 25%;
+}
+
+.card img {
+  max-height: 100%;
+  object-fit: cover;
+}
+
+#score{
+ border: 1px black solid;
+}
